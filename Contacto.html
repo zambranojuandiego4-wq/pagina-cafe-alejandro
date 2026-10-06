@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surco. - Contacto</title>
+    <link rel="stylesheet" href="Contacto.css">
+</head>
+<body>
+
+   
+    <div class="announcement-bar">
+        DISCOS NUEVOS Y USADOS · CAFÉ DE ORIGEN · MÚSICA EN VIVO CADA VIERNES
+    </div>
+
+
+    <header class="main-header">
+        <div class="logo">SURCO<span>.</span></div>
+        <nav class="main-nav">
+            <a href="#">INICIO</a>
+            <a href="#">CATÁLOGO</a>
+            <a href="#">DISCO DEL MES</a>
+            <a href="#">AGENDA</a>
+            <a href="#">NOSOTROS</a>
+            <a href="#" class="active">CONTACTO</a>
+        </nav>
+    </header>
+
+ 
+    <section class="hero-section">
+        <h1>CONTACTO</h1>
+        <p>¿Buscas un disco en particular o quieres vendernos tu colección? Escríbenos.</p>
+    </section>
+
+   
+    <div class="main-container contact-layout">
+        
+      
+        <section class="form-container">
+            <form action="#" method="POST" class="contact-form">
+                
+                <div class="form-row-half">
+                    <div class="form-group">
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="celular">CELULAR</label>
+                        <input type="tel" id="celular" name="celular" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">CORREO</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ayuda">¿EN QUÉ TE AYUDAMOS?</label>
+                    <select id="ayuda" name="ayuda">
+                        <option value="disco">Busco un disco</option>
+                        <option value="vender">Quiero vender discos</option>
+                        <option value="cafe">Reserva / Café</option>
+                        <option value="otro">Otro motivo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">MENSAJE</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">ENVIAR</button>
+            </form>
+        </section>
+
+        
+        <aside class="info-sidebar">
+            
+         
+            <div class="map-placeholder">
+                <div class="map-grid-line vertical"></div>
+                <div class="map-grid-line horizontal"></div>
+                <span class="map-street-label">CARRERA 14</span>
+                <div class="map-marker-container">
+                    <div class="map-popup">SURCO</div>
+                    <div class="map-pin"></div>
+                </div>
+            </div>
+
+           
+            <div class="info-group">
+                <h3>DIRECCIÓN</h3>
+                <p class="info-text-bold">Carrera 14 #18-32, Centro</p>
+                <p class="info-text-bold">Armenia, Quindío</p>
+            </div>
+
+          
+            <div class="info-group">
+                <h3>HORARIO</h3>
+                <ul class="schedule-list">
+                    <li>
+                        <span class="day">Lunes a jueves</span>
+                        <span class="hours">10:00 – 19:00</span>
+                    </li>
+                    <li>
+                        <span class="day">Viernes y sábado</span>
+                        <span class="hours">10:00 – 23:00</span>
+                    </li>
+                    <li>
+                        <span class="day">Domingo</span>
+                        <span class="hours">10:00 – 15:00</span>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+
+   
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2>SURCO<span>.</span></h2>
+                <p>Discos y café desde 2014.</p>
+                <p>Carrera 14 #18-32, Armenia, Quindío.</p>
+            </div>
+            <div class="footer-links-group">
+                <div class="footer-column">
+                    <h4>TIENDA</h4>
+                    <a href="#">Catálogo</a>
+                    <a href="#">Disco del mes</a>
+                    <a href="#">Agenda</a>
+                </div>
+                <div class="footer-column">
+                    <h4>SURCO</h4>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="footer-column">
+                    <h4>REDES</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Spotify</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Surco Discos & Café</span>
+            <span>Proyecto de práctica - ADSO SENA</span>
+        </div>
+    </footer>
+
+</body>
+</html>
