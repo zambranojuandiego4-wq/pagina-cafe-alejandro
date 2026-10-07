@@ -809,5 +809,119 @@ footer {
         max-width: 1100px;
         margin: 30px auto 0;
     }
+
+    .disco-principal {
+        width: calc(100% - 112px);
+        max-width: 1180px;
+        margin: 48px auto 70px;
+
+        grid-template-columns: 1fr 1fr;
+        gap: 42px;
+    }
+
+    .portada-disco {
+        padding: 34px 27px;
+    }
+
+    .informacion-disco {
+        padding: 10px;
+    }
+
+    .antetitulo {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    .informacion-disco h1 {
+        font-size: 90px;
+    }
+
+    .artista {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .preciod {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    .informacion-disco > .descripcion {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .boton {
+        width: 180px;
+        min-height: 42px;
+        font-size: 10px;
+    }
+
+    .datos-disco {
+        margin-top: 25px;
+    }
+
+    .dato {
+        min-height: 65px;
+        padding: 10px 12px;
+    }
+
+    .dato span {
+        font-size: 9px;
+    }
+
+    .dato strong {
+        font-size: 11px;
+    }
+
+    .lado-disco {
+        margin-top: 28px;
+    }
+
+    .lado-disco h2 {
+        font-size: 30px;
+    }
+
+    .cancion {
+        min-height: 38px;
+        font-size: 12px;
+    }
+
+    .duracion {
+        font-size: 10px;
+    }
+
+    .discos-relacionados {
+        padding: 48px max(56px, calc((100vw - 1180px) / 2)) 65px;
+    }
+
+    .discos-relacionados > h2 {
+        font-size: 40px;
+    }
+
+    .lista-discos {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .portada.pequeña {
+        padding: 15px 13px;
+    }
+
+    .informacion-pequeña {
+        padding-top: 8px;
+        font-size: 11px;
+    }
+
+    .informacion-pequeña span {
+        font-size: 10px;
+    }
+
+    .informacion-pequeña > strong {
+        font-size: 11px;
+    }
+
 }
+
 
