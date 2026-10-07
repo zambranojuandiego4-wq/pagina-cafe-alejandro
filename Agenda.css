@@ -373,6 +373,57 @@ footer {
     justify-content: space-between;
 }
 
+.informacion-disco {
+    padding: 0;
+}
+
+.antetitulo {
+    margin: 0 0 7px;
+
+    color: var(--rojo);
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+
+    text-transform: uppercase;
+}
+
+.informacion-disco h1 {
+    margin: 0;
+
+    font-family: "Anton", sans-serif;
+    font-size: 58px;
+    line-height: .95;
+
+    text-transform: uppercase;
+}
+
+.artista {
+    margin: 5px 0 20px;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.precio {
+    margin: 0 0 20px;
+
+    color: var(--rojo);
+
+    font-family: "Anton", sans-serif;
+    font-size: 34px;
+}
+
+.descripcion {
+    margin: 0 0 20px;
+
+    font-size: 12px;
+    line-height: 1.55;
+    font-weight: 600;
+}
+
+
 @media (min-width: 601px) {
 
     .contenido-header {
