@@ -415,3 +415,119 @@ footer {
         justify-content: space-between;
     }
 }
+
+@media (min-width: 901px) {
+
+    .contenido-header {
+        max-width: 1100px;
+        margin: auto;
+        padding: 25px 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .presentacion {
+        padding: 70px 60px;
+    }
+
+    .presentacion h1 {
+        font-size: 90px;
+    }
+
+    main {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .evento {
+        margin: 60px 0 0;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .evento > .fecha {
+        min-height: 500px;
+    }
+
+    .evento > .fecha .numero {
+        font-size: 150px;
+    }
+
+    .evento > .fecha .mes {
+        font-size: 48px;
+    }
+
+    .informacion {
+        padding: 25px 42px 10px;
+    }
+
+    .informacion h2 {
+        font-size: 48px;
+    }
+
+    .datos {
+        grid-column: 2;
+        margin-top: -25px;
+    }
+
+    button {
+        font-family: "Work Sans", sans-serif;
+        justify-self: start;
+        padding: 10px 15px;
+        background: var(--tinta);
+        color: var(--papel);
+        border: 0;
+        font-size: 14px;
+        font-weight: 600;
+        width: 150px;
+    }
+
+    .resto-mes {
+        margin: 60px 0 0;
+        padding-top: 50px;
+    }
+
+    .resto-mes > h2 {
+        font-size: 48px;
+    }
+
+    .eventos {
+        grid-template-columns: 80px 1fr 110px;
+        padding: 22px 0;
+    }
+
+    .eventos .fecha strong {
+        font-size: 48px;
+    }
+
+    .eventos .fecha span {
+        font-size: 16px;
+    }
+
+    .evento-texto h3 {
+        font-size: 28px;
+    }
+
+    .evento-texto p {
+        font-size: 16px;
+    }
+
+    .precio {
+        justify-self: end;
+        padding: 10px 18px;
+    }
+
+    footer {
+        margin-top: 60px;
+        padding: 55px 0 25px;
+    }
+
+    .footer-contenido {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .footer-final {
+        max-width: 1100px;
+        margin: 30px auto 0;
+    }
+}
