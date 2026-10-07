@@ -1,0 +1,345 @@
+:root {
+    --clr-cream: #EFECE3;      
+    --clr-dark: #121212;       
+    --clr-red: #D34E36;        
+    --clr-white: #FFFFFF;
+    --clr-border: rgba(18, 18, 18, 0.15);
+    --font-heading: 'Oswald', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-cream);
+    color: var(--clr-dark);
+    font-family: var(--font-body);
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    background-color: var(--clr-cream);
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.navbar .logo {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar .logo span {
+    color: var(--clr-red);
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: var(--clr-dark);
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-links a:hover, 
+.navbar .nav-links a.active {
+    color: var(--clr-red);
+}
+
+.ticker-bar {
+    background-color: var(--clr-dark);
+    color: var(--clr-cream);
+    text-align: center;
+    padding: 10px 20px;
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+}
+
+.about-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 5%;
+}
+
+.about-header {
+    border-bottom: 1px solid var(--clr-dark);
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.about-header h1 {
+    font-family: var(--font-heading);
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.about-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 60px;
+    margin-bottom: 70px;
+}
+
+.history-main-text h2 {
+    font-family: var(--font-body);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.history-side-text p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgba(18, 18, 18, 0.85);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--clr-dark);
+    border-bottom: 1px solid var(--clr-dark);
+    margin-bottom: 80px;
+}
+
+.stat-item {
+    padding: 35px 20px;
+    border-right: 1px solid var(--clr-border);
+}
+
+.stat-item:last-child {
+    border-right: none;
+}
+
+.stat-item h3 {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    color: var(--clr-red);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.team-title {
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.team-card {
+    border: 1px solid var(--clr-dark);
+    background-color: transparent;
+    padding: 35px 25px;
+}
+
+.avatar-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.avatar-red { background-color: #E25845; }
+.avatar-orange { background-color: #F0B342; }
+.avatar-green { background-color: #2F6551; }
+
+.team-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.team-card .role {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+
+.team-card .divider {
+    height: 1px;
+    background-color: rgba(18, 18, 18, 0.15);
+    margin: 25px 0 15px 0;
+}
+
+.team-card .recommend-label {
+    font-family: var(--font-heading);
+    color: var(--clr-red);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.team-card .recommend-text {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.main-footer {
+    background-color: var(--clr-dark);
+    color: var(--clr-cream);
+    padding: 60px 8% 30px 8%;
+    font-size: 0.95rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1.8fr;
+    gap: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(239, 236, 227, 0.1);
+}
+
+.footer-logo {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-logo span {
+    color: var(--clr-red);
+}
+
+.footer-brand p {
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.footer-col h4 {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: rgba(239, 236, 227, 0.4);
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul a {
+    color: var(--clr-cream);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-col ul a:hover {
+    color: var(--clr-red);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+@media (max-width: 992px) {
+    .history-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr; 
+    }
+    
+    .stat-item {
+        border-right: none;
+        border-bottom: 1px solid var(--clr-border);
+        padding: 25px 0;
+    }
+    
+    .stat-item:last-child {
+        border-bottom: none;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .footer-links-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .about-header h1 {
+        font-size: 3rem;
+    }
+    
+    .navbar .nav-links {
+        display: none;
+    }
+    
+    .footer-links-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
