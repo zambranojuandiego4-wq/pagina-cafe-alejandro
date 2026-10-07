@@ -437,8 +437,81 @@ footer {
     text-transform: uppercase;
 }
 
+.datos-disco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+    margin-top: 18px;
 
+    border: 2px solid var(--tinta);
+}
+
+.dato {
+    min-height: 48px;
+    padding: 7px 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-bottom: 2px solid var(--tinta);
+}
+
+.dato:nth-child(odd) {
+    border-right: 2px solid var(--tinta);
+}
+
+.dato:nth-child(3),
+.dato:nth-child(4) {
+    border-bottom: none;
+}
+
+.dato span {
+    margin-bottom: 3px;
+
+    color: var(--gris);
+
+    font-size: 7px;
+    font-weight: 700;
+}
+
+.dato strong {
+    font-size: 9px;
+}
+
+.lado-disco {
+    margin-top: 20px;
+}
+
+.lado-disco h2 {
+    margin: 0 0 5px;
+
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.cancion {
+    min-height: 32px;
+
+    display: grid;
+    grid-template-columns: 22px 1fr auto;
+    align-items: center;
+
+    border-bottom: 1px solid var(--papel-oscuro);
+
+    font-size: 10px;
+}
+
+.numero-cancion {
+    color: var(--rojo);
+    font-weight: 700;
+}
+
+.duracion {
+    color: var(--gris);
+    font-size: 9px;
+}
 
 @media (min-width: 601px) {
 
@@ -519,6 +592,8 @@ footer {
         justify-content: space-between;
     }
 }
+
+
 
 @media (min-width: 901px) {
 
