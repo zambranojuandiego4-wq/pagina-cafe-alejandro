@@ -513,6 +513,87 @@ footer {
     font-size: 9px;
 }
 
+.discos-relacionados {
+    padding: 30px 10px 45px;
+
+    border-top: 2px solid var(--tinta);
+}
+
+.discos-relacionados > h2 {
+    margin: 0 0 20px;
+
+    font-family: "Anton", sans-serif;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.lista-discos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 10px;
+}
+
+.portada.pequeña {
+    position: relative;
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    border: 2px solid var(--tinta);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+.portada-roja {
+    background-image: url("Imagenes/ruta-29.jpg");
+    background-size: cover;
+}
+
+.portada-negra {
+    background-image: url("Imagenes/descarga-calarca.jpg");
+     background-size: cover;
+}
+
+.portada-beige {
+    background-image: url("Imagenes/bambu-fm.jpg");
+     background-size: cover;
+}
+
+.portada-azul {
+    background-image: url("Imagenes/salento-5am.jpg");
+     background-size: cover;
+}
+
+.informacion-pequeña {
+    padding-top: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+
+    font-size: 8px;
+}
+
+.informacion-pequeña > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion-pequeña span {
+    color: var(--gris);
+    font-size: 7px;
+}
+
+.informacion-pequeña > strong {
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+
 @media (min-width: 601px) {
 
     .contenido-header {
