@@ -336,6 +336,43 @@ footer {
     font-size: 10px;
 }
 
+.pagina-disco {
+    background-color: var(--papel);
+    color: var(--tinta);
+    font-family: "Work Sans", sans-serif;
+}
+
+.pagina-disco * {
+    box-sizing: border-box;
+}
+
+.disco-principal {
+    width: calc(100% - 20px);
+    margin: 30px auto 45px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.portada-disco {
+    position: relative;
+
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 20px 12px;
+
+    background-image: url(Imagenes/tinto-doble.jpg);
+    background-size: cover;
+    border: 2px solid var(--tinta);
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (min-width: 601px) {
 
     .contenido-header {
@@ -531,3 +568,4 @@ footer {
         margin: 30px auto 0;
     }
 }
+
