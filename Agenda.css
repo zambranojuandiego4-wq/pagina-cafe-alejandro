@@ -217,3 +217,68 @@ header > .descripcion {
     font-size: 14px;
     font-weight: 700;
 }
+
+.resto-mes {
+    margin: 40px 11px 0;
+    padding-top: 40px;
+    border-top: 2px solid var(--tinta);
+}
+
+.resto-mes > h2 {
+    margin-bottom: 25px;
+    font-family: "Anton", sans-serif;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.eventos {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    column-gap: 12px;
+    padding: 17px 0;
+    border-top: 2px solid var(--tinta);
+    border-bottom: 1px solid var(--papel-oscuro);
+}
+
+.eventos .fecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventos .fecha strong {
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+    line-height: 1;
+}
+
+.eventos .fecha span {
+    font-family: "Anton", sans-serif;
+    font-size: 14px;
+}
+
+.evento-texto h3 {
+    margin-bottom: 5px;
+    font-family: "Anton", sans-serif;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.evento-texto p {
+    color: var(--gris);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.precio {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: transparent;
+    color: var(--tinta);
+    border: 2px solid var(--tinta);
+    font-size: 14px;
+    font-weight: 700;
+}
