@@ -85,3 +85,23 @@ header > .descripcion {
     font-weight: 700;
     letter-spacing: 2px;
 }
+
+.presentacion {
+    padding: 35px 11px;
+    border-bottom: 2px solid var(--tinta);
+}
+
+.presentacion h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.presentacion p {
+    max-width: 600px;
+    margin-top: 6px;
+    color: var(--gris);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
