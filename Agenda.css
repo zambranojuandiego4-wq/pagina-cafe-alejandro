@@ -335,3 +335,83 @@ footer {
     border-top: 1px solid var(--gris);
     font-size: 10px;
 }
+
+@media (min-width: 601px) {
+
+    .contenido-header {
+        padding: 22px 40px;
+    }
+
+    nav {
+        gap: 22px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .presentacion {
+        padding: 50px 40px;
+    }
+
+    .evento {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px 40px 0;
+    }
+
+    .evento > .fecha {
+        min-height: 440px;
+    }
+
+    .evento > .fecha .numero {
+        font-size: 130px;
+    }
+
+    .evento > .fecha .mes {
+        font-size: 42px;
+    }
+
+    .informacion {
+        padding: 25px 35px 10px;
+    }
+
+    .datos {
+        grid-column: 2;
+        margin-top: -10px;
+    }
+
+    .datos button {
+        margin-top: 22px;
+    }
+
+    .resto-mes {
+        margin: 50px 40px 0;
+        padding-top: 45px;
+    }
+
+    .eventos {
+        grid-template-columns: 70px 1fr auto;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    .precio {
+        grid-column: auto;
+        margin-top: 0;
+    }
+
+    footer {
+        padding: 50px 40px 25px;
+    }
+
+    .footer-contenido {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+
+    .footer-final {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
