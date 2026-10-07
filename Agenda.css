@@ -406,11 +406,9 @@ footer {
     font-weight: 700;
 }
 
-.precio {
+.preciod {
     margin: 0 0 20px;
-
     color: var(--rojo);
-
     font-family: "Anton", sans-serif;
     font-size: 34px;
 }
@@ -422,6 +420,24 @@ footer {
     line-height: 1.55;
     font-weight: 600;
 }
+
+.boton {
+    display: inline-flex;
+    min-height: 35px;
+    width: 150px;
+    padding: 0 14px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tinta);
+    color: var(--papel);
+    border: 2px solid var(--tinta);
+    font-size: 9px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 
 
 @media (min-width: 601px) {
