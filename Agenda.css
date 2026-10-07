@@ -38,3 +38,50 @@ button {
     font-size: 14px;
     font-weight: 600;
 }
+
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 12px;
+}
+
+.contenido-header h1 {
+    display: flex;
+    font-family: "Anton", sans-serif;
+    font-size: 34px;
+    line-height: 1;
+}
+
+.punto {
+    color: var(--rojo);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+}
+
+nav a {
+    font-size: 9px;
+    font-weight: 700;
+}
+
+nav .activo {
+    color: var(--rojo);
+    border-bottom: 2px solid var(--rojo);
+    padding-bottom: 4px;
+}
+
+header > .descripcion {
+    padding: 9px;
+    background: var(--tinta);
+    color: var(--papel);
+    text-align: center;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
